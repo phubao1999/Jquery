@@ -1,0 +1,41 @@
+*{margin: 0;padding: 0;}
+.motkhoi{
+    width: 60%;
+    margin: auto;
+}
+.ndmotkhoi {
+    border: 1px solid #80808082;
+    background-color: #ffffffc4;
+    padding: 15px;
+}
+.tren.mauxanh {
+    background-color: blueviolet;
+}
+h3.tdmotkhoi {
+    padding: 10px 20px;
+}
+.fas{
+    margin-top: 15px;
+    margin-left: 50%;
+}
+
+.tren {
+    display: flex;
+    background-color: #80808096;
+    color: white;
+}
+.hieuung {
+    width: 40%;
+    margin: auto;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.container {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: segoe ui light;
+}

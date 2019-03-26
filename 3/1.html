@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LondonToMonaco</title>
+    <link rel="stylesheet" href="1.css">
+    <script src="1.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="menutren">
+            <ul>
+                <li><a href="">CHAPTER 1</a></li>
+                <li><a href="">CHAPTER 2</a></li>
+                <li><a href="">CHAPTER 3</a></li>
+                <li><a href="">CHAPTER 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="home">
+
+    </div>
+    <div class="noidung1">
+        <h2>Blue Marine Foundation launches the fourth</h2>
+        <h4>London to Monaco cycle ride</h4>
+        <h4>17th – 24th September 2019</h4>
+        <hr>
+        <h6>UK / Spain / France / Monaco</h6>
+        <p>After another hugely successful year of the London to Monaco cycle ride which raised an impressive £456,000 for ocean conservation this year, we are excited to be launching the 4th edition which will take place between 17-24 September 2019. <br><br>
+
+            For all inquiries about taking part or becoming a 2019 sponsor please email: info@london-monaco.cc
+            
+            </p>
+    </div>
+    <div class="chapter1">
+        <h2 class="chuto">1</h2>
+    </div>
+    <div class="chapter2">
+        <h2 class="chuto">2</h2>
+    </div>
+    <div class="chapter3">
+        <h2 class="chuto">3</h2>
+    </div>
+    <div class="chapter4">
+        <h2 class="chuto">4</h2>
+    </div>
+    <!--script-->
+    <script src="js/jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            //console.log('Chay chua ban oi !!!');
+            $('.menutren ul li a').click(function (e) { 
+                e.preventDefault();
+                $('body').animate({ scrollTop : 1500}, 1000 );
+                console.log('acs');
+            });
+        });
+    </script>
+</body>
+</html>
