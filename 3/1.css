@@ -1,5 +1,16 @@
 *{margin: 0;padding: 0;}
 
+.nutlentren {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: #d6d6d6;
+    color: green;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 .noidung1 p {
     margin: 15px 0px;
 }
