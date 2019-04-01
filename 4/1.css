@@ -1,0 +1,93 @@
+*{margin:0;padding: 0;}
+
+h2.tdkhoi.xanh img {
+    transform: rotate(180deg);
+}
+
+h2.tdkhoi.xanh img {}
+
+.tdkhoi img {
+    float: right;
+    margin-right: 370px;
+    transition: 1s;
+    opacity: 0;
+}
+
+img.anhnho {
+    /* width: 100px; */
+    /* margin: auto; */
+    margin-left: px;
+    float: left;
+    height: 100px;
+    margin-right: 10px;
+    /* align-items: center; */
+    /* padding-left: 98px; */
+}
+
+.cacanh {
+    /* margin: auto; */
+    /* float: left; */
+    /* width: 100px; */
+    overflow: hidden;
+    margin: auto;
+    align-items: center;
+}
+
+h2.tdkhoi {
+    /* margin: auto; */
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+h2.tdkhoi:hover img {
+    margin-right: 440px;
+    opacity: 1;
+}
+h2.tdkhoi:hover {
+    color: lightblue;
+    transition: 1s;
+}
+
+.tdkhoi.xanh {
+    color: lightblue;
+}
+
+._1khoi {
+    margin: auto;
+    /* border-bottom: 1px solid gray; */
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.cacanh .col-sm-6{
+    border-bottom: 1px solid gray;
+}
+
+.ndkhoi {
+    width: 40%;
+    margin: auto;
+}
+
+.ndkhoi {
+    line-height: 25px;
+    color: gray;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+body{
+    background-image: url('images/nen.png');
+}
+.noidung {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+span {
+    font-family: 'Josefin Slab', serif;
+    color: blue;
+}
+
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    font-size: 38px;
+}
