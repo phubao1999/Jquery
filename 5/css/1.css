@@ -1,0 +1,112 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+.chunho {
+    position: absolute;
+    top: 215px;
+    left: 115px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    z-index: 5;
+    text-transform: capitalize;
+    transition: 0.3s;
+    transform: scale(0);
+}
+
+.tinto:hover .chunho {
+    transform: scale(1);
+}
+
+.chuto {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    z-index: 4;
+    top: 190px;
+    transition: 0.5s;
+    left: 200px;
+}
+
+.tinto:hover .chuto {
+    top: 150px;
+}
+
+.hinhvuong {
+    width: 75%;
+    height: 70%;
+    border: 1px solid white;
+    position: absolute;
+    z-index: 3;
+    top: 45px;
+    left: 65px;
+    transition: 0.5s;
+    transform: scale(0);
+}
+
+.tinto:hover .hinhvuong {
+    transform: scale(1);
+}
+
+.gradient {
+    width: 480px;
+    height: 360px;
+    background: red;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+    background-image: -webkit-linear-gradient(45deg, #0000ffb3 0%, #ff0000b8 50%, #000000a1 100%);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.tinto:hover .gradient {
+    opacity: 0.1;
+}
+
+.xam {
+    width: 480px;
+    height: 360px;
+    background: #00000033;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.xam {}
+
+body {
+	background-color: #2F3238;
+}
+
+img {
+	width: 480px;
+	height: 360px;
+}
+
+._1khoi{
+	display: flex;
+	margin: auto;
+}
+
+.tinto {
+	padding: 20px;
+	margin-left: 100px;
+	margin-top: 50px;
+	overflow: hidden;
+	position: relative;
+}
+
+h3 {
+	color: white;
+	position: relative;
+	top: 10px;
+	left: 170px;
+}

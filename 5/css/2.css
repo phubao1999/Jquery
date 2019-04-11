@@ -1,0 +1,109 @@
+*{margin:0; padding: 0;}
+
+button.btn-primary.nutload.ml-5.mt-5.fixed-bottom {
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.to:hover .thanh2 {
+    transform: rotate(-45deg);
+}
+
+.chunho {
+    position: absolute;
+    z-index: 6;
+    top: 190px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 40px;
+    transition: 0.5s;
+}
+
+.to:hover .chunho {
+    transform: translateY(-20px);
+}
+
+.chuto {
+    position: absolute;
+    z-index: 5;
+    top: 70px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.to:hover .chuto {
+    transform: translateY(20px);
+}
+
+.thanh1 {
+    width: 350px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 135px;
+    left: 20px;
+    z-index: 3;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.thanh2 {
+    width: 350px;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 135px;
+    left: 20px;
+    z-index: 4;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.to:hover .thanh1 {
+    transform: rotate(45deg);
+}
+
+.nenxanh {
+    width: 400px;
+    height: 300px;
+    background: #add8e654;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.to:hover .nenxanh {
+    opacity: 1;
+}
+
+img.anh {
+    width: 400px;
+    height: 300px;
+    transition: 0.3s;
+    transform: scale(1.5);
+}
+
+.to:hover img.anh {
+    transform: scale(1);
+}
+
+.to {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
