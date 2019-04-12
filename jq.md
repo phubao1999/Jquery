@@ -16,3 +16,7 @@ transform: scale(2); (zoom div lên 2 lần)
 transform: translateX(100px); (Dịch chuyển div cầm hiệu ứng sang tọa độ x là 100px);
 transition-delay: 1s; (Khi di chuột vào thì phải 1s sau mới có hiệu ứng);
 transition-timing-function: ease (Đây là thuộc tính để chỉnh gia tốc của transition cơ chế nó có thể chỉnh quá trình vận hành của hiệu ứng. Chỉ có chrome mới nhất mới có thể chỉnh sửa được hiệu ứng này trực tiếp)
+a:link ( định dạng cho tất cả liên kết khi chưa được click.)
+a:visited(định dạng cho các thành phần đã được click.)
+a:active(chọn các liên kết được kích hoạt.)
+a:hover(khi cho chuot vao se co Css)
