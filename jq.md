@@ -20,3 +20,26 @@ a:link ( định dạng cho tất cả liên kết khi chưa được click.)
 a:visited(định dạng cho các thành phần đã được click.)
 a:active(chọn các liên kết được kích hoạt.)
 a:hover(khi cho chuot vao se co Css)
+-- FlexBox:
+Div Cha:Display : flex;
+    1)  flex-direction: row;(sắp xếp theo hàng ngang)
+        flex-derection: column;(Sắp xếp theo hàng dọc)
+    2)  justify-content: flex-start;(Sắp xếp flex bắt đầu tùy vào row or column)
+        justify-content: flex-end;(Sắp xếp flex kết thúc tùy vào row or column)
+        justify-content: center;(cho ra giữa)
+        justifi-content: space-around
+        justifi-content: space-between
+        justifi-content: space-evenly
+Div con:flex-basis: <length>;
+        flex-grow: <number>;
+        flex-shrink:
+        order: 1;(đảo ngược vị trí flex của phần tử kế tiếp)
+-- Grid:
+    display: grid;
+    grid-template-columns: 70% 30%;
+Div Con:
+    giả sử chia div có 4 div con (25%)
+    .item1 {
+        grid-column: 1 / span 2;
+    }
+    thì div item1 sẽ chiếm 50% (= 1/2 của hệ thống grid)
