@@ -43,3 +43,22 @@ Div Con:
         grid-column: 1 / span 2;
     }
     thì div item1 sẽ chiếm 50% (= 1/2 của hệ thống grid)
+-- Sử dụng thuộc tính animation kết hợp với các cú pháp chuyển động của Css3 (Khi load trang)
+Ví Dụ:
+    img.hoatiet1 {
+        position: absolute;
+        z-index: 1;
+        bottom: 38%;
+        right: 10%;
+        opacity: 0;
+        animation: phonglen 0.5s forwards;
+        animation-delay: 2s;
+    }
+    @-webkit-keyframes phonglen {
+        0%{
+            opacity: 0; transform: scale(0.4);
+        }
+        100%{
+            opacity: 1; transform: scale(1);
+        }
+    }
