@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nut {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 15%;
+    /* width: 100px; */
+    /* height: 50px; */
+    background: #f9f9f9;
+    padding: 20px;
+    font-weight: bold;
+    width: 135px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25px;
+    animation: duoilen 1s forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+@-webkit-keyframes duoilen {
+    0%{
+        opacity: 0; transform: translateY(190px);
+    }
+    100%{
+        opacity: 1; transform: translateY(0px);
+    }
+}
+
+.chuto {
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 10%;
+    width: 30%;
+    animation: phaisang 1s forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+@-webkit-keyframes phaisang {
+    0%{
+        opacity: 0; transform: translateX(-190px);
+    }
+    100%{
+        opacity: 1; transform: translateX(0px);
+    }
+}
+
+img.hoatiet3 {
+    position: absolute;
+    z-index: 1;
+    bottom: 9%;
+    right: 8%;
+    opacity: 0;
+    animation: phonglen 0.5s forwards;
+    animation-delay: 2.6s;
+}
+
+img.hoatiet2 {
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    right: 12%;
+    opacity: 0;
+    animation: phonglen 0.5s forwards;
+    animation-delay: 2.3s;
+}
+
+img.hoatiet1 {
+    position: absolute;
+    z-index: 1;
+    bottom: 38%;
+    right: 10%;
+    opacity: 0;
+    animation: phonglen 0.5s forwards;
+    animation-delay: 2s;
+}
+@-webkit-keyframes phonglen {
+    0%{
+        opacity: 0; transform: scale(0.4);
+    }
+    100%{
+        opacity: 1; transform: scale(1);
+    }
+}
+
+img.dammay {
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    left: -121px;
+    opacity: 0;
+    animation: dilen 1s forwards;
+}
+@-webkit-keyframes dilen {
+    0%{
+        opacity: 0; transform: translateY(300px);
+    }
+    100%{
+        opacity: 1; transform: translateY(0px);
+    }
+}
+
+img.embe {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 10%;
+    opacity: 0;
+    animation: hienlen 1s forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes hienlen {
+    0%{
+        transform: translateY(100px); opacity: 0;
+    }
+    100%{
+        transform: translateY(0px); opacity: 1;
+    }
+}
+
+header.to {
+    height: 700px;
+    background-size: cover;
+    background-image: url(/images/nen.jpg);
+    position: relative;
+    overflow: hidden;
+}
