@@ -3,10 +3,57 @@
     padding: 0;
 }
 
+.cacnut {
+    transition: ease 1s;
+    /* transform-origin: 50% 50%; */
+}
+
+.cacnut.sangtrai {
+    transform: translateX(400px);
+    transition: 1s;
+    /* transform: rotate(360deg); */
+}
+
 .nutmora {
     margin: auto;
     width: 200px;
     margin-top: 300px;
+    background: lavender;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #615858;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nutmora2:hover {
+    background: lightblue;
+}
+
+.nutmora2 {
+    margin: auto;
+    width: 200px;
+    margin-top: 10px;
+    background: lavender;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #615858;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nutmora3:hover {
+    background: lightblue;
+}
+
+.nutmora3 {
+    margin: auto;
+    width: 200px;
+    margin-top: 10px;
     background: lavender;
     text-align: center;
     padding: 10px 12px;
@@ -33,7 +80,26 @@ html {
     position: fixed;
     top: 0;
     left: 0;
+    transition: cubic-bezier(0.57, 0.13, 0.58, 1) 1s;
+    transform: translateX(-400px);
 }
+
+.menutren {
+    width: 100%;
+    height: 30vh;
+    background: lightblue;
+    position: fixed;
+    top: 0;
+    transition: cubic-bezier(0.57, 0.13, 0.58, 1) 1s;
+    transform: translateY(-400px);
+}
+
+.menutren.trenxuong {
+    transform: translateY(0px);
+}
+
+
+.menutrai.traisang {transform: translateX(0px);}
 
 body {
     background: wheat;
