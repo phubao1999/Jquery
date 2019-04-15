@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nutmora {
+    margin: auto;
+    width: 200px;
+    margin-top: 300px;
+    background: lavender;
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #615858;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.nutmora:hover {
+    background: lightblue;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.menutrai {
+    width: 400px;
+    height: 100%;
+    background: lightblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background: wheat;
+    width: 100%;
+    height: 100%;
+}
