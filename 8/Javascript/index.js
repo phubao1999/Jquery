@@ -12,3 +12,9 @@ $(document).ready(function () {
         });
     });
 });
+
+
+
+    // Về cơ bản bài này, bản chất của nó là mỗi các slide đang được viewer thấy nó chính là 1 class đang được active
+    // Cho nên nó sẽ add class để có hiệu ứng để trang tiếp theo nhảy ra
+    // Như vậy trang tiếp theo sẽ có class active và cứ thế cho mỗi trang sau
