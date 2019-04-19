@@ -27,11 +27,13 @@
     border-radius: 50%;
     text-indent: -9000px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
+    border: 1px solid white;
 }
 
-.nutslide li:hover {
-    background: black;
+.nutslide li.xanh {
+    background: none;
+    border: 1px solid #0000ff75;
 }
 
 .next {
@@ -78,9 +80,24 @@
 @-webkit-keyframes bien-mat-o-ben-trai {
     0% {
         transform: translateX(0%);
+        opacity: 0;
     }
     100%{
         transform: translateX(-100%);
+        opacity: 1;
+    }
+}
+
+._1slide.bien-mat-o-ben-phai{
+    animation:bien-mat-o-ben-phai 1s forwards ;
+}
+
+@-webkit-keyframes bien-mat-o-ben-phai {
+    0% {
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
     }
 }
 
@@ -91,6 +108,21 @@
 @-webkit-keyframes di-vao-tu-ben-phai {
     0% {
         transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+._1slide.di-vao-tu-ben-trai{
+    animation:di-vao-tu-ben-trai 1s forwards ;
+}
+
+@-webkit-keyframes di-vao-tu-ben-trai {
+    0% {
+        transform: translateX(-100%);
         opacity: 0;
     }
     100%{

@@ -62,3 +62,4 @@ Ví Dụ:
             opacity: 1; transform: scale(1);
         }
     }
+-- Sử dụng extension beatify: ctrlA file Bấm f1. search từ khóa beautifi. enter
