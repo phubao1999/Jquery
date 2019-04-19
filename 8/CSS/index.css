@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+._1slide.active {
+    opacity: 1;
+}
+
+.nutslide {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+
+.nutslide ul {
+    display: inline-block;
+}
+
+.nutslide li {
+    list-style: none;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background: gray;
+    border-radius: 50%;
+    text-indent: -9000px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nutslide li:hover {
+    background: black;
+}
+
+.next {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    right: 0;
+    cursor: pointer;
+}
+
+.previous {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 4;
+    cursor: pointer;
+}
+
+._1slide {
+    position: absolute;
+    top: 0;
+    left: -140px;
+    opacity: 0;
+}
+
+.anhslide {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.apple {
+    width: 1345px;
+    height: 700px;
+    position: relative;
+}
+
+._1slide.bien-mat-o-ben-trai{
+    animation:bien-mat-o-ben-trai 1s forwards ;
+}
+
+@-webkit-keyframes bien-mat-o-ben-trai {
+    0% {
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+._1slide.di-vao-tu-ben-phai{
+    animation:di-vao-tu-ben-phai 1s forwards ;
+}
+
+@-webkit-keyframes di-vao-tu-ben-phai {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
