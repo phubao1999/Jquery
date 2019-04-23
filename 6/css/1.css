@@ -97,7 +97,7 @@ img.cogai {
 	z-index: 1;
 	top: 0px;
 	left: 0px;
-	background: url(/images/slide-doctor-bg.jpg);
+	background: url('../images/slide-doctor-bg.jpg');
 	transition: 0.5s;
 	background-size: cover;
 	opacity: 0;

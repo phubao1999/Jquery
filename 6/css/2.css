@@ -129,7 +129,7 @@ img.embe {
 header.to {
     height: 700px;
     background-size: cover;
-    background-image: url(/images/nen.jpg);
+    background-image: url('../images/nen.jpg');
     position: relative;
     overflow: hidden;
 }
