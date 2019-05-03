@@ -89,8 +89,17 @@ a.logo {
     transition: 1s;
 }
 
+.menutren.lv1 {
+    background: black;
+    transform: translateY(-100px);
+}
+
+.menutren.lv2 {
+    background: black;
+    transform: translateY(0px);
+}
+
 .menutren.bienhinh {
     background: #3a3939;
     height: 70px;
-    
 }
