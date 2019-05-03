@@ -32,6 +32,13 @@
     text-transform: uppercase;
 }
 
+.menutren.bienhinh .mtrai a {
+    padding-top: 18px;
+    font-size: 15px;
+    transition: 1s;
+    margin: auto;
+}
+
 .mtrai li {
     float: left;
     list-style: none;
@@ -48,6 +55,12 @@ a.logo {
     font-size: 30px;
     display: block;
     padding: 20px 0 0 0;
+}
+
+.menutren.bienhinh a.logo {
+    padding-top: 18px;
+    font-size: 22px;
+    transition: 1s;
 }
 
 .phai {
@@ -73,4 +86,11 @@ a.logo {
     background: rgba(241, 241, 241, 0);
     position: fixed;
     top: 0px;
+    transition: 1s;
+}
+
+.menutren.bienhinh {
+    background: #3a3939;
+    height: 70px;
+    
 }
