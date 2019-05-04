@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.noidung {
+    background: lightblue;
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.cangiua {
+    width: 960px;
+    margin: auto;
+}
+
+.anh {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+
+.anh:nth-child(3n+3){
+    margin-right: 0;
+}
+
+.text {
+    width: 1200px;
+    margin: auto;
+    font-size: 23px;
+    color: gray;
+}
+
+.text.xanh {
+    background: #414141;
+    color: white;
+}

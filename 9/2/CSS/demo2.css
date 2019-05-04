@@ -22,10 +22,9 @@
     height: 500px;
     margin-right: 20px;
     text-align: center;
-    opacity: 0;
 }
 
-.giaodien.hienra .khoi {
+/* .giaodien.hienra .khoi {
     animation: dituduoilen 1s forwards;
 }
 .giaodien.hienra .khoi:nth-child(1) {
@@ -62,7 +61,7 @@
         opacity: 1;
         transform: translateY(0px);
     }
-}
+} */
 
 
 .khoi img {
@@ -73,5 +72,6 @@
     width: 900px;
     height: auto;
     margin: auto;
+    opacity: 0;
 }
 

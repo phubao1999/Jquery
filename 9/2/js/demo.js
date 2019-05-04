@@ -6,10 +6,10 @@ $(document).ready(function () {
         
         if (vitriBody >= vitriGiaodien){
             // console.log('abc');
-            $('.giaodien').addClass('hienra');
+            $('.giaodien').addClass('fadeInRight animated');
         }
         else {
-            $('.giaodien').removeClass('hienra');
+            $('.giaodien').removeClass('fadeInRight animated');
         }
     });
 });
