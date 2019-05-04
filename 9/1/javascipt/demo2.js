@@ -1,5 +1,6 @@
 $(document).ready(function () {
     var vitriMenu = $('.menutren').offset().top;
+    //console.log(vitriMenu);
     $(window).scroll(function (e) { 
         let vitriBody = $('html, body').scrollTop();
         // console.log(vitriBody);
