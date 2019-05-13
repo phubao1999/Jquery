@@ -1,3 +1,3 @@
-$(document).ready(function () {
-    console.log('abc');
-});
+$(function () {
+    $('[data-toggle="popover"]').popover()
+  })
